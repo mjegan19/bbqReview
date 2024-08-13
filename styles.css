@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('./site-images/butcher-paper.gif') repeat right top;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alata', sans-serif;
+}
+
+.site-nav {
+  background: #353535;
+}
+
+#site-logo img {
+  padding-top: 2rem;
+}
+
+.nav li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.nav li a {
+  color: #B72C2A;
+}
+
+.nav li a:hover {
+  color: #8A211F;
+}
+
+.nav button {
+  background: #B46948;
+  
+}
+
+.nav button:hover {
+  background: #A05D40;
+
+}
+
+.welcome-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 3rem;
+}
+
+.review-body {
+  background: #FFFFFF;
+}
+
+.review-bar {
+  position: relative;
+}
+
+.review-btns {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.bbq-img {
+  width: 12rem;
+}
